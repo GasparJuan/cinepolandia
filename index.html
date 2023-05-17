@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine</title>
+    <link rel="stylesheet" href="css/css.css">
+    <script src="js/js.js"></script>
+</head>
+<body>
+    <header> 
+        <H1> CINEPOLANDIA </H1> 
+        <img src="img/cine.png" alt="">
+    </header>
+    <main>
+        <br>
+        <h2> Recomendador de Peliculas </h2>
+        <br>
+        <h3> ingrese su edad :</h3>
+        <br>
+        <input type="number" id="textoEdad" placeholder="indique su edad"> 
+        <br>
+        <br>
+        <h3> Indique su genero: </h3>
+        <br>
+        <button onclick= "recomendar('comedia')"> Comedia </button>
+        <button onclick= "recomendar('drama')"> Drama </button>
+        <button onclick= "recomendar('musical')"> Musical </button>
+        <button onclick= "recomendar('crimen')"> Crimen </button>
+        <h3 id="recomendador"> --- </h3>
+        <img src="" id="imgPeli" alt="">
+    </main>
+    <footer>
+        <p>Todos los derechos reservados @cinepolandia</p>
+    </footer>
+
+</body>
+</html>
